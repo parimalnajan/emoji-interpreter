@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
   var [output,setOutput]=useState(' output here');
-  var [message,setMessage]=useState("Enter an Emoji or click on one to know its meaning");
+  var message="Enter an Emoji or click on one to know its meaning"
 
   var database={
     
